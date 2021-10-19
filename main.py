@@ -32,9 +32,7 @@ for cp in range(1000, 99999):
                 lst.pop()
         print(lst)
         voisin[cp] = lst
-        
-
-print(voisin)      
+   
 
 # création d'un tableau excel vide et remplissage avec les données du tableau
 workbook = xlsxwriter.Workbook('communes.xlsx')
